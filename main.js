@@ -17,6 +17,8 @@ app.get("/course",(req,res)=>{
     fillData()
     const course=req.query.cname;
     // console.log(course);
+
+    //Take the username from Login
     var user="vihitha";
     for(const u in users){
         if(users[u].username==user)
